@@ -2,6 +2,7 @@
 
 public sealed class _49_Group_Anagrams
 {
+    //https://leetcode.com/problems/group-anagrams/
     public static IList<IList<string>> GroupAnagrams(string[] strs)
     {
         var dict = new Dictionary<string, IList<string>>();
